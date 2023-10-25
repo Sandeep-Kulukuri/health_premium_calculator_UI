@@ -40,7 +40,7 @@ const App: React.FC = () => {
       };
 
       // Make an API request to your backend
-      const response = await fetch('http://3.111.157.103:8000/calculate_premium', {
+      const response = await fetch('https://health-plan-apis.onrender.com/calculate_premium', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
